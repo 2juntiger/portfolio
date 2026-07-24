@@ -1,0 +1,228 @@
+.userEL21592166 .detail-page{
+
+    width:100%;
+    background:#111;
+    color:white;
+
+    padding:80px 80px;
+
+}
+.userEL21592166 .section-title h2{
+
+    font-size:5rem;
+    font-weight:700;
+
+    margin-bottom:50px;
+
+}
+.userEL21592166 .category{
+
+    display:flex;
+    gap:14px;
+
+    margin-bottom:60px;
+
+    flex-wrap:wrap;
+
+}
+
+.userEL21592166 .category button{
+
+    height:46px;
+
+    padding:0 24px;
+
+    border-radius:50px;
+
+    border:1px solid rgba(255,255,255,.3);
+
+    background:none;
+
+    color:white;
+
+    cursor:pointer;
+
+    transition:.35s;
+
+    font-weight:600;
+
+}
+
+.userEL21592166 .category button.active{
+
+    background:#E8FF43;
+    color:#111;
+    border:none;
+}
+
+.userEL21592166 .category button:hover{
+
+    background:#E8FF43;
+    color:black;
+
+}
+.userEL21592166 .portfolio-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:25px;
+
+}
+.userEL21592166 .card{
+
+    text-decoration:none;
+
+    color:white;
+
+}
+
+.userEL21592166 .card img{
+
+    width:100%;
+
+    aspect-ratio:4/6;
+
+    object-fit:cover;
+
+    display:block;
+
+    transition:.45s;
+
+}
+
+.userEL21592166 .card h3{
+
+    margin-top:18px;
+
+    font-size:1.5rem;
+
+    font-weight:600;
+
+}
+.userEL21592166 .card{
+
+    overflow:hidden;
+
+}
+
+.userEL21592166 .card img{
+
+    transform:scale(1);
+
+}
+
+.userEL21592166 .card:hover img{
+
+    transform:scale(1.05);
+
+    opacity:.8;
+
+}
+.userEL21592166 .thumb{
+
+    position:relative;
+
+    overflow:hidden;
+
+}
+
+.userEL21592166 .overlay{
+
+    position:absolute;
+
+    inset:0;
+
+    background:rgba(0,0,0,.25);
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    opacity:0;
+
+    transition:.35s;
+
+}
+
+.userEL21592166 .overlay span{
+
+    width:55px;
+    height:55px;
+
+    border-radius:50%;
+
+    background:rgba(255,255,255,.25);
+
+    color:white;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:2rem;
+
+    backdrop-filter:blur(10px);
+
+}
+
+.userEL21592166 .card:hover .overlay{
+
+    opacity:1;
+
+}
+@media(max-width:1200px){
+
+.userEL21592166 .portfolio-grid{
+
+    grid-template-columns:repeat(2,1fr);
+
+}
+
+.userEL21592166 .section-title h2{
+
+    font-size:3rem;
+
+}
+
+}
+@media(max-width:768px){
+
+.userEL21592166 .detail-page{
+
+    padding:80px 25px;
+
+}
+
+.userEL21592166 .portfolio-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+.userEL21592166 .section-title h2{
+
+    font-size:2.3rem;
+
+}
+
+.userEL21592166 .category{
+
+    gap:10px;
+
+}
+
+.userEL21592166 .category button{
+
+    font-size:.9rem;
+
+    padding:0 18px;
+
+}
+
+}
